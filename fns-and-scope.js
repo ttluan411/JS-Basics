@@ -5,11 +5,11 @@ var name = 'Tyler';
 //If the argument you passed in is equal to 'Tyler', return true. If it's not, return false.
 
   //Code Here
-  function(name){
+  function isTyler(name){
     if(name === 'Tyler'){
       return true;
     }
-    false;
+    return false;
   }
 
 //////////////////PROBLEM 2////////////////////
@@ -19,7 +19,10 @@ var name = 'Tyler';
 
 
   //Code Here
-  
+  function getName(name){
+    name = prompt(name);
+    return name;
+  }
 
 
 //////////////////PROBLEM 3////////////////////
@@ -30,6 +33,9 @@ var name = 'Tyler';
 //then alerts "Welcome, " plus whatever the users name is.
 
   //Code Here
+  function welcome(name){
+    return alert("Welcome, " + getName(name));
+  }
 
 
 //////////////////PROBLEM 4////////////////////
@@ -40,6 +46,7 @@ var name = 'Tyler';
 //What is the difference between arguments and parameters?
 
   //Answer Here
+  parameters are something given to function declaration, and parameters are passed to the function when we call the function
 
 
 //////////////////PROBLEM 5////////////////////
