@@ -46,7 +46,7 @@ var name = 'Tyler';
 //What is the difference between arguments and parameters?
 
   //Answer Here
-  parameters are something given to function declaration, and parameters are passed to the function when we call the function
+  "parameters are something given to function declaration, and arguments are passed to the function when we call the function"
 
 
 //////////////////PROBLEM 5////////////////////
@@ -58,7 +58,7 @@ var name = 'Tyler';
 
   //Answer Here
 
-
+"0,undefined, false, nan, '',null" 
 
 //////////////////PROBLEM 6////////////////////
 
@@ -67,27 +67,34 @@ var name = 'Tyler';
 //Create a function called myName that returns your name
 
   //Code Here
+  function myName() {
+    return 'Logan';
+  }
   
 
 
 //Now save the function definition of myName into a new variable called newMyName
 
-  //Code Here
-
+  //Code Here 
+  function newMyName(){
+  var newMyName = myName();
+  }
 //Now alert the result of invoking newMyName
-
-
+  
 
 //////////////////PROBLEM 7////////////////////
 
-
-
+ 
 //Create a function called outerFn which returns an anonymous function which returns your name.
 
   //Code Here
+  function outerFn() {
+    return myName;
+  }
 
 //Now save the result of invoking outerFn into a variable called innerFn.
 
   //Code Here
+  var innerFn = outerFn();
 
 //Now invoke innerFn.
