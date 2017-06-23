@@ -5,6 +5,12 @@ var name = 'Tyler';
 //If the argument you passed in is equal to 'Tyler', return true. If it's not, return false.
 
   //Code Here
+  function(name){
+    if(name === 'Tyler'){
+      return true;
+    }
+    false;
+  }
 
 //////////////////PROBLEM 2////////////////////
 
@@ -13,6 +19,7 @@ var name = 'Tyler';
 
 
   //Code Here
+  
 
 
 //////////////////PROBLEM 3////////////////////
